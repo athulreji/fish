@@ -22,6 +22,11 @@ function fishconf
     tmux new -s FishConf -c ~/.config/fish
 end
 
+function kittyconf
+    tmux new -s KittyConf -c ~/.config/kitty
+end
+
+
 function tmuxconf
     tmux new -s TmuxConf -c ~/.config/tmux
 end
